@@ -2,6 +2,18 @@ body
 {
     padding: 0;
     margin: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+nav
+{
+    background-color: #000000;
+}
+
+ul
+{
+    padding: 10px 0 10px 10px;
+    margin: 0;
 }
 
 li
@@ -9,13 +21,7 @@ li
     display: inline;
     font-family: Arial;
     margin: 0 5px 0 5px;
-}
-
-ul
-{
-    background-color: #000000;
-    padding: 10px 0 10px 10px;
-    margin: 0;
+    overflow: hidden;
 }
 
 a
@@ -27,4 +33,37 @@ a
 a:hover
 {
     color:rgba(245, 245, 245, 0.884);
+}
+
+@media screen and (max-width: 411px)
+{
+    article
+    {
+        width: 100%;
+        margin: 10px auto 10px auto;
+        padding: 0px 10px 15px 10px;
+        border-bottom: 1px solid rgb(185, 185, 185);
+    }
+}
+
+@media screen and (min-width: 412px)
+{
+    article
+    {
+        width: 33%;
+        margin: 10px auto 10px auto;
+        padding: 0;
+        border-bottom: 1px solid rgb(185, 185, 185);
+    }
+}
+
+img
+{
+    width: 100%;
+}
+
+h3
+{
+    text-align: center;
+    overflow: hidden;
 }
